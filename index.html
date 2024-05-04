@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <style>
+            .fixed{
+                position: fixed;
+                width: 100%;
+                height: 40px; 
+                top:0%;
+                left: 0%;
+                display: block;
+                background-color: brown;
+                z-index: 1;
+            }
+            .relative{
+                  position: relative;
+                  width: auto;
+                  height: 550px;
+                  display: inline-block;
+                  border: 3px; 
+                  border-color: black;  
+                  box-sizing: border-box;
+            }
+            .absolute{
+                position: absolute;
+                left: 45%;
+                bottom: 50%;
+            }
+            .relative1{
+                position: relative;
+                width: 320px;
+                height: 450px;
+                display: inline-block;
+                border: 5px;
+                box-sizing: border-box;
+                vertical-align: top;
+            }
+            .span{
+                position: absolute;
+                top:0%;
+                left: 0%;
+                padding: 6px;
+                background-color: beige;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="fixed">
+            <span style="font-size: larger; position: absolute;top: 2px;">B R Architects</span>
+            <span style="position: absolute; top: 2%; left: 70%;font-size: larger;">Projects</span>
+            <span style="position: absolute; top:0%; left:78%;font-size: larger;">About</span>
+            <span style="position: absolute; top: 0%; left: 83%;font-size: larger;">Contacts</span>
+        </div>
+        <div class="relative">
+            <img src="https://www.w3schools.com/w3images/architect.jpg"width=100% height="550px">
+            <h1 class="absolute"><span style="padding: 4px;background-color: darkgrey;">B R </span>Architects</h1>
+        </div>
+        <br>
+        <h1>Projects</h1>
+        <hr>
+        <br>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house5.jpg"width=320 height="400">
+            <span class="span">Summer House</span><br>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house2.jpg"width=320 height="400">
+            <span class="span">Brick House</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house3.jpg"width=320 height="400">
+            <span class="span">Renovated</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house4.jpg"width=320 height="400">
+            <span class="span">Barn House</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house2.jpg"width=320 height="400">
+            <span class="span">Summer House</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house5.jpg"width=320 height="400">
+            <span class="span">Brick House</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="320" height="400">
+            <span class="span">Renovated</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/house3.jpg"width="320"height="400">
+            <span class="span">Born House</span>
+        </div>
+      <br>
+      <h1> About</h1>
+      <hr>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div  class="relative1" >
+            <img src="https://www.w3schools.com/w3images/team2.jpg"width="250" height="200">
+            <h1>John Doe</h1><br>
+            <span>CEO & Founder</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+             <span style="background-color: darkgrey;padding: 10px 100px;">cantacts</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/team1.jpg"width=250 height="200">
+            <h1>John Doe</h1>
+            <br><span>Architect</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <span style="background-color: darkgrey;padding: 10px 100px;">cantacts</span>
+        </div> 
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/team3.jpg"width=250 height="200">
+            <h1>John Doe</h1>
+            
+            <br><span>Architect</span><br>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <span style="background-color: darkgrey;padding: 10px 100px;">cantacts</span>
+        </div>
+        <div class="relative1">
+            <img src="https://www.w3schools.com/w3images/team4.jpg"width=250 height="200"><br>
+            
+            <h1>John Doe</h1>
+            <br><span>Architect</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <span style="background-color: darkgrey;padding: 10px 100px;">cantacts</span>
+        </div>
+        <br>
+        <h1>Contact</h1>
+        <hr>
+        <p>Lets get in touch and talk about your next project</p>
+        <form>
+            <label for="nam"></label>
+        <input type="text" value="Name"><br>
+        <br>
+        <input type="email" placeholder="Email"><br>
+        <br>
+        <input type="text" placeholder="Subject"><br>
+        <br>
+        <input type="text" placeholder="Comment"><br>
+        <br>
+        <input type="button" value="Send Message" style="background-color: bisque;padding: 5px;">
+        </form>
+        <div class="relative">
+            <img src="https://www.w3schools.com/w3images/map.jpg" width="1300px" height="500px">
+        </div>
+        <div>
+            <p style="  height: 100px;text-align: center;">Powerd by @Vinitha reddy</p>
+        </div>
+
+    </body>
+</html>
